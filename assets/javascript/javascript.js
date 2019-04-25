@@ -38,7 +38,7 @@ $(document).ready(function () {
         }).then(function () {
             // Update successful.
             console.log(user.displayName);
-            window.location.href = "signedUser.html";
+            //window.location.href = "signedUser.html";
 
         }).catch(function (error) {
             // An error happened.
